@@ -25,7 +25,7 @@ golem::fill_desc(
   author_first_name = "AUTHOR_FIRST", # Your First Name
   author_last_name = "AUTHOR_LAST", # Your Last Name
   author_email = "AUTHOR@MAIL.COM", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional) 
+  repo_url = 'https://github.com/Roberto-Parra/Golem2.git' # The URL of the GitHub Repo (optional) 
 )     
 
 ## Set {golem} options ----
@@ -35,7 +35,7 @@ golem::set_golem_options()
 ## See ?usethis for more information
 usethis::use_mit_license( "Golem User" )  # You can set another license here
 usethis::use_readme_rmd( open = FALSE )
-usethis::use_code_of_conduct()
+#usethis::use_code_of_conduct()
 usethis::use_lifecycle_badge( "Experimental" )
 usethis::use_news_md( open = FALSE )
 
