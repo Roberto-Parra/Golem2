@@ -35,6 +35,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(Golem2)
+Golem2::run_app()
 ## basic example code
 ```
 
